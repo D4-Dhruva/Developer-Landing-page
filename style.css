@@ -1,0 +1,124 @@
+
+html,body{
+    height: 100%;
+    width:100%;
+    
+    }
+
+*{
+        padding:0%;
+        margin:0%;
+        box-sizing: border-box;
+}
+    
+.Dimg1{
+    background-image: url(images/developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container{
+    color:white;
+    max-width: 900px;
+    margin:0 auto;
+    padding-top: 64px;
+    padding-left:16px;
+}
+
+.large-text{
+    font-size: 62px;
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.small-text{
+    font-family:"Roboto", sans-serif;
+    font-weight:700;
+    font-size: 26px;
+}
+
+.black-box{
+    background-color: black;
+    padding: 20px;
+}
+
+.black-container-text{
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 72px;
+    font-weight: 300;
+   text-align: center;
+}
+
+.big-text{
+    font-weight: 400;
+    font-size: 106px;
+}
+
+
+.card{
+    max-width:320px;
+    height:400px;
+    border-radius: 10px;
+    margin: 52px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 10px 10px 6px rgb(108, 110, 108);
+}
+
+.card:hover{
+    transform: scale(1.04);
+    transition: 0.2sec ease-in-out;
+}
+
+.head-style{
+    font-family: "Roboto", sans-serif;
+    color:rgb(42, 45, 48);
+    font-weight: 800;
+}
+
+.para-style{
+    font-family: "Roboto", sans-serif;
+}
+
+.card-container{
+    padding: 16px;
+
+}
+
+.contact-container{
+    background-color: rgb(45, 54, 45);
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    padding:20px;
+}
+.heading{
+    font-weight: 400;
+}
+
+.about-container{
+    background-color: #b56746;
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    padding:20px
+}
+
+.contact-container p{
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 20px;
+    color: white;
+}
+
+.heading{
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+}
